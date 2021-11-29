@@ -1,0 +1,13 @@
+write a function called getRandomNumber that returns a promise
+
+in the promise, write a setTimeout() that will resolve the promise with a random number
+after 0.5 seconds
+
+write an async function that invokes the getRandomNumber function, awaiting the random number,
+invoke your async function
+
+Write an asynchronus function that accepts 1 parameter
+    a city name
+when invoked, this function should use geocode.xyz's api retrieve the city data
+once retrieved, print to the console the latitude
+invoke your async function with a few cities as a test
